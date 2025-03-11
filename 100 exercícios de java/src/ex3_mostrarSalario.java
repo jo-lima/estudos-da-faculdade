@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ex2 {
+public class ex3_mostrarSalario {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Insira seu nome: ");
@@ -10,5 +10,6 @@ public class ex2 {
 
         System.out.println("Nome do funcionário: " + nome);
         System.out.println("Salário do funcionário: " + salario + "R$");
+        scan.close();
     }
 }

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ex4 {
+public class ex5_mediaNotas {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Nota 1:");
@@ -8,5 +8,6 @@ public class ex4 {
         System.out.println("Nota 2:");
         int num2 = scan.nextInt();
         System.out.println("Sua média é: " + ((num1 + num2) / 2));
+        scan.close();
     }
 }
