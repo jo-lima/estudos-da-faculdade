@@ -19,5 +19,5 @@ para cada valor em intervalo:
 	exibe valor + " "
 exibe "]"
 
-O algoritimo se trata de uma lista encadeada simples, ja que é
+O algoritmo se trata de uma lista encadeada simples, ja que é
 criado uma estrutura de dados do mesmo tipo (inteiros) em uma sequência linear (ordém numérica).
