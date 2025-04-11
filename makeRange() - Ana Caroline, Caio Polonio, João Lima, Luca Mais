@@ -1,0 +1,23 @@
+integrantes: Ana Caroline, Caio Polonio, João Lima, Luca Maia
+
+fazIntervalo ( menor, maior )
+	i = 0
+	tam = (menor - maior)+1
+	lista[tam]
+	
+	enquanto i < tam:
+		menor = menor + 1
+		lista[i] = menor
+		i = i + 1
+
+	retorna lista
+
+intervalo = fazIntervalo(1, 10)
+
+exibe "A lista: ["
+para cada valor em intervalo:
+	exibe valor + " "
+exibe "]"
+
+O algoritimo se trata de uma lista encadeada simples, ja que é
+criado uma estrutura de dados do mesmo tipo (inteiros) em uma sequência linear (ordém numérica).
