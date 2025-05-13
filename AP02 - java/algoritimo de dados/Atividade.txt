@@ -1,0 +1,32 @@
+ Variáveis:
+        max: Inteiro, tamanho máximo da pilha
+        array: (vetor) para armazenar os elementos da pilha
+        topo: Inteiro, índice do topo da pilha (-1 se a pilha estiver vazia)
+
+    função size():
+        retornar topo + 1
+
+    função isEmpty():
+        retornar (topo < 0)
+
+    função top():
+        Se isEmpty() então:
+            Lançar exceção EmptyStackException
+        Senão:
+            retornar array[topo]
+
+    função push(e):
+        Se size() = max então:
+            Lançar exceção FullStackException
+        Senão:
+            topo ← topo + 1
+            array[topo] ← e
+
+    função pop():
+        Se isEmpty() então:
+            Lançar exceção EmptyStackException
+        Senão:
+            e ← array[topo]
+            array[topo] ← nulo 
+            topo ← topo - 1
+            retornar e
